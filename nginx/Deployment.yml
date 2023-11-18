@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-dp
+  labels:
+    type: web
+    author: thej
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: myapp-pod
+        image: nginx
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+      serviceAccountName: myapp-sa
+        ports:
+        - containerPort: 80
