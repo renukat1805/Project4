@@ -1,6 +1,6 @@
 Install EKS-server
 --------------------
-* launch a ec2 machine (amazonlinux - recomended)
+* launch a ec2 machine (ubuntu - recomended)
 * create a IAM role with AdministrationAccess and attach with ec2 machine
 * install kubectl on ec2 machine
 
