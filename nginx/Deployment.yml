@@ -21,7 +21,6 @@ spec:
           image: nginx
           ports:
             - containerPort: 80
-              hostPort: 9999
           resources:
             limits:
               memory: "128Mi"
