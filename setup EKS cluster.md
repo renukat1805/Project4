@@ -1,10 +1,11 @@
 Kubernetes Cluster Setup
+
 Installion of EKS-server
 --------------------
 * Launch a ec2 machine (ubuntu)
 * Create an IAM role with AdministrationAccess and attach with ec2 machine
 * Install kubectl on ec2 machine
-
+  
 		curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.28.3/2023-11-14/bin/linux/amd64/kubectl
                 chmod +x ./kubectl
 		mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$PATH
