@@ -1,4 +1,5 @@
 Kubernetes Cluster Setup
+
 Installion of EKS-server
 --------------------
 * Launch a ec2 machine (ubuntu)
