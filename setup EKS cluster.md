@@ -67,7 +67,9 @@ To check Nodes
 
 		eksctl delete cluster --name mycluster --region=us-east-2
   * Configuring of YAML files for kubernetes deployment
-  * create deployment manifest file
+  * create deployment manifest file for 2 replicas and includes resources with Nginx image
+  * created service maniest file for any reason if pod gets crashed the newly created pod will contain the same IP address as of the deleted pod
+  * Also included the type Loadbalancer and assign selector field with labels, as it should be applied for any pod which is having the labels(type: proxy)
   * 
   
 
