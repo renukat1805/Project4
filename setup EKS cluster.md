@@ -66,5 +66,9 @@ To check Nodes
 >cluster deletion
 
 		eksctl delete cluster --name mycluster --region=us-east-2
+  * Configuring of YAML files for kubernetes deployment
+  * create deployment manifest file
+  * 
+  
 
 
