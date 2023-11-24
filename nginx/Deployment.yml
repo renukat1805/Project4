@@ -17,12 +17,14 @@ spec:
         type: proxy
     spec:
       containers:
-        - name: web
+        - name: myweb
           image: nginx
-          ports:
-            - containerPort: 80
           resources:
+            requests:
+              memory: "64Mi"
+              cpu: "100m"
             limits:
               memory: "128Mi"
               cpu: "350m"
-      serviceAccountName: web-sa
+          ports:
+            - containerPort: 80
