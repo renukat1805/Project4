@@ -57,14 +57,14 @@ To check Nodes
 
 >syntax of cluster creation
 
-		eksctl create cluster --name=mycluster --region=us-east-2 --node-type=<node-instance-type> --nodes=<number-of-nodes>
+		eksctl create cluster --name mycluster --region=us-east-2 --node-type=<node-instance-type> --nodes=<number-of-nodes>
 
 > cluster creation command
 
-		eksctl create cluster --name=mycluster --region=us-east-2 --node-type=t2.large --nodes=3
+		eksctl create cluster --name mycluster --region=us-east-2 --node-type=t2.large --nodes=3
 
 >cluster deletion
 
-		eksctl delete cluster --name=mycluster --region=us-east-2
+		eksctl delete cluster --name mycluster --region=us-east-2
 
 
