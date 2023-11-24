@@ -1,6 +1,7 @@
 Kubernetes Cluster Setup
 
-Installion of EKS-server
+
+Installation of EKS-server
 --------------------
 * Launch a ec2 machine (ubuntu)
 * Create an IAM role with AdministrationAccess and attach with ec2 machine
